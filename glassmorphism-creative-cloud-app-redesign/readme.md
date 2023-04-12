@@ -38,6 +38,8 @@
 
 - width 一般设置成 百分比%，height 可以设置成 vh 和 px 这种固定单位的，max-width 和 max-height 用来限制盒子的宽高。
 
+# 伪元素定位常用属性
+
 ```html
 伪元素常用绝对定位 
 { 
@@ -47,17 +49,24 @@
     border-radius: 50%; 
     top: -6px; 
     right: -6px; 
+	/*字体颜色相关*/
     font-size: 10px; 
     color: #fff;
     background-color: #3a6df0; 
-	/*后面三个是当绝对定位是span时，用来居中文字的*/
+	/*伪元素当中有内容用来居中文字的*/
     display: flex; 
     justify-content: center; 
     align-items: center;
 } 
+```
 
-flex-grow 默认为0 flex-shrink 默认为1 
-一般来说在弹性盒子中，固定一个弹性元素宽度不变的方式：flex-basis: ***px;flex-shrink: 0;与之配套的就是flex-grow: 1，宽度自适应。
+# 弹性元素
+
+```html
+常用布局，一边固定宽度或者高度，一边自适应
+由于flex-grow 默认为0 flex-shrink 默认为1 
+因此在弹性盒子中，固定一个弹性元素宽度不变：flex-basis: ***px;flex-shrink: 0;
+与之配套的就是flex-grow: 1，宽度自适应。
 
 三个小圆点
 .menu-circle {
@@ -100,12 +109,16 @@ input的样式可以学习
 }
 ```
 
+# 猫头鹰选择器
+
 ```html
 /*猫头鹰选择器：选择第二个到最后一个元素 */
 .side-wrapper + .side-wrapper {
   margin-top: 20px;
 }
 ```
+
+# 滚动条
 
 ```html
 ::-webkit-scrollbar——整个滚动条。
