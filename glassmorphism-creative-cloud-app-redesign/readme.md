@@ -100,6 +100,41 @@ input的样式可以学习
 }
 ```
 
+```html
+/*猫头鹰选择器：选择第二个到最后一个元素 */
+.side-wrapper + .side-wrapper {
+  margin-top: 20px;
+}
+```
+
+```html
+::-webkit-scrollbar——整个滚动条。
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb——滚动条上的滚动滑块。
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-bg);
+    border-radius: 10px;
+}
+```
+
+```html
+img {
+  max-width: 100%;
+}
+.content-wrapper-img {
+  width: 186px;
+  object-fit: cover;   
+  margin-top: -25px;
+  object-position: center;
+}
+```
+
+
+
 # 学到的新特性
 
 ```html
