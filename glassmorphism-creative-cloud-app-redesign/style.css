@@ -214,7 +214,7 @@ body {
 .wrapper {
   display: flex;
   flex-grow: 1; /* flex-grow 默认为0，这里给1是因为header固定了height58px */
-  overflow: hidden;
+  overflow: hidden;  /* 没有这个left-side的滚动条显示不出来 */
 }
 
 /*猫头鹰选择器：选择第二个到最后一个元素 */
@@ -479,7 +479,7 @@ body {
     14px 0 0 0 var(--button-inactive);
   margin: 0 12px;
 }
-
+/*这个的目的是增大鼠标点击面积*/
 .dropdown {
   position: relative;
   height: 53px;
@@ -491,7 +491,7 @@ body {
   border: none;
   cursor: pointer;
 }
-
+/*整个下拉框ul先设置opacity为0，鼠标事件对它无效*/
 .dropdown ul {
   position: absolute;
   top: 20px;
@@ -505,6 +505,12 @@ body {
   border-radius: 14px;
   transform: translateY(10px);
   transition: all 0.4s ease;
+}
+/*点击之后opacity设置为1，鼠标事件有效*/
+.dropdown.is-active ul {
+  pointer-events: all;
+  opacity: 1;
+  transform: translateY(25px);
 }
 .dropdown ul li {
   display: flex;
@@ -525,11 +531,7 @@ body {
   color: var(--theme-color);
   font-size: 12px;
 }
-.dropdown.is-active ul {
-  pointer-events: all;
-  opacity: 1;
-  transform: translateY(25px);
-}
+
 
 .pop-up {
   position: absolute;
