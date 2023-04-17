@@ -28,3 +28,7 @@
 ```
 
 字体五件套：font-size，font-weight，line-height，color，opacity
+
+# 页面布局图
+
+![图片](./页面布局图.png)
