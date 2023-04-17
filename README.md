@@ -12,8 +12,14 @@ Several elegant static website exercises to help you improve your CSS skills
 
 # glassmorphism-creative-cloud-app-redesign
 
-![页面](./glassmorphism-creative-cloud-app-redesign/页面.png)
+![页面](./glassmorphism-creative-cloud-app-redesign/最终实现图.png)
 
+# project-management-dashboard-ui
 
+![图片](./project-management-dashboard-ui/最终实现图.png)
+
+# book-store-ui
+
+![图片](./book-store-ui/最终实现图.png)
 
 来源: [CodePen](https://codepen.io/)
