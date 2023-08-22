@@ -1,5 +1,5 @@
 # Static-website-exercise
-Several elegant static website exercises to help you improve your CSS skills
+通过还原静态页面来提高自身的CSS技巧
 
 # 基础
 
