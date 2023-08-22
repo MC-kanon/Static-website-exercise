@@ -22,4 +22,7 @@ Several elegant static website exercises to help you improve your CSS skills
 
 ![图片](./book-store-ui/最终实现图.png)
 
-来源: [CodePen](https://codepen.io/)
+# responsive-social-platform-ui
+![图片](responsive-social-platform-ui/最终实现图.png)
+
+练习页面的来源: [CodePen](https://codepen.io/)
